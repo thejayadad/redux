@@ -1,12 +1,10 @@
 
-import PostsList from "./features/posts/PostsList";
-
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      hi
-      <PostsList />
+      <Navbar />
     </div>
   );
 }
